@@ -24,6 +24,9 @@ function anagrams(stringA, stringB) {
       }
     }
   }
+  
+  array1 = array1.join("")
+  array2 = array2.join("")
   return true
 }
 
