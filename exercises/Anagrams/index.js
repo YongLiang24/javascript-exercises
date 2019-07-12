@@ -13,6 +13,19 @@
  */
 
 function anagrams(stringA, stringB) {
+  let array1 = stringA.split("")
+  let array2 = stringB.split("")
+  let count =0;
+
+  for(let i =0; i < array1.length; i++){
+    for(let j=0; j <array2.length; j++){
+      if(array1[i] !== array2[j]){
+        return false
+      }
+    }
+  }
+
+  return true
 
 }
 
